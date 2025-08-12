@@ -6,7 +6,7 @@ const projects = [
     description:
       "Elegant resort-booking website designed for smooth reservations, stunning gallery displays, and a user-friendly experience that turns visitors into guests.",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "/Mum Griham Resort.png",
+    image: "/Resort.png",
     demoUrl: "https://final-resort.vercel.app/",
     codeUrl: "#",
   },
