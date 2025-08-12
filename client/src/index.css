@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+body {
+  background-color: #eaedf0; /* light background */
+  color: #060707; /* dark text */
+}
+
+.section-title {
+  font-size: 1.875rem; /* Tailwind text-3xl */
+  font-weight: 700; /* Tailwind font-bold */
+  margin-bottom: 2rem; /* Tailwind mb-8 */
+  text-align: center; /* Tailwind text-center */
+  position: relative; /* Tailwind relative */
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4rem; /* Tailwind w-16 */
+  height: 0.25rem; /* Tailwind h-1 */
+  background-color: #0d6efd; /* Tailwind bg-primary */
+  border-radius: 9999px; /* Tailwind rounded-full */
+}
+
+/* body {
+  @apply bg-light text-dark;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-8 text-center relative;
+}
+
+.section-title::after {
+  @apply content-[''] absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-16 h-1 bg-primary rounded-full;
+} */
