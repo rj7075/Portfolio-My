@@ -180,33 +180,21 @@ export default function ContactSection() {
                     className="text-gray-600 hover:text-primary transition"
                     aria-label="Twitter"
                   >
-                    <img
-                      className="h-6 w-6"
-                      src="/public/twitter.png"
-                      alt="twitter"
-                    />
+                    <img className="h-6 w-6" src="/twitter.png" alt="twitter" />
                   </a>
                   <a
                     href="https://github.com/rj7075?tab=repositories"
                     className="text-gray-600 hover:text-primary transition"
                     aria-label="GitHub"
                   >
-                    <img
-                      className="h-6 w-6"
-                      src="/public/github.png"
-                      alt="github"
-                    />
+                    <img className="h-6 w-6" src="/github.png" alt="github" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/ranjeet-yadav-174865211/"
                     className="text-gray-600 hover:text-primary transition"
                     aria-label="LinkedIn"
                   >
-                    <img
-                      className="h-6 w-6"
-                      src="/public/linkdin.png"
-                      alt="linkdin"
-                    />
+                    <img className="h-6 w-6" src="/linkdin.png" alt="linkdin" />
                   </a>
                   <a
                     href="#"
@@ -215,7 +203,7 @@ export default function ContactSection() {
                   >
                     <img
                       className="h-6 w-6"
-                      src="/public/instagram.png"
+                      src="/instagram.png"
                       alt="instagram"
                     />
                   </a>
@@ -226,7 +214,7 @@ export default function ContactSection() {
                   >
                     <img
                       className="h-6 w-6"
-                      src="/public/facebook.png"
+                      src="/facebook.png"
                       alt="facebook"
                     />
                   </a>

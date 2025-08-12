@@ -6,7 +6,7 @@ const projects = [
     description:
       "A full-featured online store with product catalog, cart, and payment integration.",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "/public/r4.jpg",
+    image: "/r4.jpg",
     demoUrl: "#",
     codeUrl: "#",
   },
@@ -15,7 +15,7 @@ const projects = [
     description:
       "A productivity application for organizing tasks with drag-and-drop functionality.",
     technologies: ["React", "Firebase", "Tailwind CSS"],
-    image: "/public/r4.jpg",
+    image: "/r4.jpg",
     demoUrl: "#",
     codeUrl: "#",
   },
@@ -24,7 +24,7 @@ const projects = [
     description:
       "Real-time weather information with forecasts and historical data visualization.",
     technologies: ["JavaScript", "API Integration", "Chart.js"],
-    image: "/public/r4.jpg",
+    image: "/r4.jpg",
     demoUrl: "#",
     codeUrl: "#",
   },
@@ -33,7 +33,7 @@ const projects = [
     description:
       "Dashboard for tracking engagement metrics across multiple social platforms.",
     technologies: ["Python", "Django", "PostgreSQL", "D3.js"],
-    image: "/public/r4.jpg",
+    image: "/r4.jpg",
     demoUrl: "#",
     codeUrl: "#",
   },
@@ -42,7 +42,7 @@ const projects = [
     description:
       "Mobile app for tracking workouts, nutrition, and health metrics.",
     technologies: ["React Native", "GraphQL", "Firebase"],
-    image: "/public/r4.jpg",
+    image: "/r4.jpg",
     demoUrl: "#",
     codeUrl: "#",
   },
@@ -51,7 +51,7 @@ const projects = [
     description:
       "Search and save recipes with dietary filters and meal planning.",
     technologies: ["Vue.js", "Express", "MongoDB"],
-    image: "/public/r4.jpg",
+    image: "/r4.jpg",
     demoUrl: "#",
     codeUrl: "#",
   },

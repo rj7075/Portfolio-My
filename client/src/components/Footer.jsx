@@ -18,51 +18,35 @@ export default function Footer() {
               className="text-black hover:text-primary transition"
               aria-label="linkdin"
             >
-              <img
-                className="h-6 w-6"
-                src="/public/linkdin.png"
-                alt="linkdin"
-              />
+              <img className="h-6 w-6" src="/linkdin.png" alt="linkdin" />
             </a>
             <a
               href="https://github.com/rj7075?tab=repositories"
               className="text-black hover:text-primary transition"
               aria-label="GitHub"
             >
-              <img className="h-6 w-6" src="/public/github.png" alt="Github" />
+              <img className="h-6 w-6" src="/github.png" alt="Github" />
             </a>
             <a
               href="#"
               className="text-black hover:text-primary transition"
               aria-label="facebook"
             >
-              <img
-                className="h-6 w-6"
-                src="/public/facebook.png"
-                alt="facebook"
-              />
+              <img className="h-6 w-6" src="/facebook.png" alt="facebook" />
             </a>
             <a
               href="#"
               className="text-black hover:text-primary transition"
               aria-label="instagram"
             >
-              <img
-                className="h-6 w-6"
-                src="/public/instagram.png"
-                alt="instagram"
-              />
+              <img className="h-6 w-6" src="/instagram.png" alt="instagram" />
             </a>
             <a
               href="#"
               className="text-black hover:text-primary transition"
               aria-label="LinkedIn"
             >
-              <img
-                className="h-6 w-6"
-                src="/public/twitter.png"
-                alt="twitter"
-              />
+              <img className="h-6 w-6" src="/twitter.png" alt="twitter" />
             </a>
           </div>
         </div>
