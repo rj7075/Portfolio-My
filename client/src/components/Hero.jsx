@@ -52,7 +52,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-primary rounded-full opacity-10"></div>
               <div className="absolute inset-4 border-4 border-primary rounded-full"></div>
               <img
-                src="/public/Ranjeet-Yadav3.jpg"
+                src="/Ranjeet-Yadav3.jpg"
                 alt="Developer"
                 className="relative w-94 h-100 rounded-md object-cover z-1"
               />

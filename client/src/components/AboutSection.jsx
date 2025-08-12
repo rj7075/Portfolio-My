@@ -24,7 +24,7 @@ export default function AboutSection() {
             <div className="relative w-84 h-114 ">
               <div className="absolute inset-0 bg-primary rounded-lg opacity-10"></div>
               <img
-                src="../../public/rj1.jpeg"
+                src="/rj1.jpeg"
                 alt="Developer"
                 className="relative w-full h-full rounded-lg object-cover z-1"
               />
