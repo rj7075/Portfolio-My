@@ -15,7 +15,7 @@ const projects = [
     description:
       "Modern real estate website built to showcase properties with stunning visuals,perfect for driving sales and inquiries",
     technologies: ["React", "Firebase", "Tailwind CSS"],
-    image: "/assetsense page.png",
+    image: "/assetsense.png",
     demoUrl: "https://assestsence.vercel.app/",
     codeUrl: "#",
   },
@@ -24,7 +24,7 @@ const projects = [
     description:
       "A secure and scalable portal where services are tailored to user roles, ensuring each user — admin, manager, or client",
     technologies: ["JavaScript", "API Integration", "Chart.js"],
-    image: "/service portal.png",
+    image: "/service.png",
     demoUrl: "https://service-portal-blue.vercel.app/",
     codeUrl: "#",
   },
@@ -33,7 +33,7 @@ const projects = [
     description:
       "Showcasing creative interior designs with stunning visuals, portfolio galleries, and service details — crafted to inspire and attract clients.",
     technologies: ["Python", "Django", "PostgreSQL", "D3.js"],
-    image: "/interiror website.png",
+    image: "/interiror.png",
     demoUrl: "https://yourhomefinder.in/interior-page/",
     codeUrl: "#",
   },
