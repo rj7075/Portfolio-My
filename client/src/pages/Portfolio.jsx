@@ -2,39 +2,39 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
-    title: "E-commerce Platform",
+    title: "Resort-Booking Website",
     description:
-      "A full-featured online store with product catalog, cart, and payment integration.",
+      "Elegant resort-booking website designed for smooth reservations, stunning gallery displays, and a user-friendly experience that turns visitors into guests.",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "/r4.jpg",
-    demoUrl: "#",
+    image: "/Mum Griham Resort.png",
+    demoUrl: "https://final-resort.vercel.app/",
     codeUrl: "#",
   },
   {
-    title: "Task Management App",
+    title: "Real Estate Website",
     description:
-      "A productivity application for organizing tasks with drag-and-drop functionality.",
+      "Modern real estate website built to showcase properties with stunning visuals,perfect for driving sales and inquiries",
     technologies: ["React", "Firebase", "Tailwind CSS"],
-    image: "/r4.jpg",
-    demoUrl: "#",
+    image: "/assetsense page.png",
+    demoUrl: "https://assestsence.vercel.app/",
     codeUrl: "#",
   },
   {
-    title: "Weather Dashboard",
+    title: "Role Based Service Portal",
     description:
-      "Real-time weather information with forecasts and historical data visualization.",
+      "A secure and scalable portal where services are tailored to user roles, ensuring each user — admin, manager, or client",
     technologies: ["JavaScript", "API Integration", "Chart.js"],
-    image: "/r4.jpg",
-    demoUrl: "#",
+    image: "/service portal.png",
+    demoUrl: "https://service-portal-blue.vercel.app/",
     codeUrl: "#",
   },
   {
-    title: "Social Media Analytics",
+    title: "Interior Designer Website",
     description:
-      "Dashboard for tracking engagement metrics across multiple social platforms.",
+      "Showcasing creative interior designs with stunning visuals, portfolio galleries, and service details — crafted to inspire and attract clients.",
     technologies: ["Python", "Django", "PostgreSQL", "D3.js"],
-    image: "/r4.jpg",
-    demoUrl: "#",
+    image: "/interiror website.png",
+    demoUrl: "https://yourhomefinder.in/interior-page/",
     codeUrl: "#",
   },
   {
@@ -52,7 +52,7 @@ const projects = [
       "Search and save recipes with dietary filters and meal planning.",
     technologies: ["Vue.js", "Express", "MongoDB"],
     image: "/r4.jpg",
-    demoUrl: "#",
+    demoUrl: "https://yourhomefinder.in/interior-page/",
     codeUrl: "#",
   },
 ];
