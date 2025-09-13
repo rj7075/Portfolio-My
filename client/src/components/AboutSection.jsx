@@ -15,7 +15,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="py-22">
+    <section className="py-6">
       <div className="container mx-auto px-4">
         <h2 className="section-title">About Me</h2>
 

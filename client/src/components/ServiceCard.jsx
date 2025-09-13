@@ -1,6 +1,6 @@
 export default function ServiceCard({ service }) {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+    <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition">
       <div className="text-primary mb-4">
         <svg
           className="w-10 h-10"
