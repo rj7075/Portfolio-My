@@ -140,7 +140,7 @@ export default function ContactSection() {
                       href="mailto:john@example.com"
                       className="text-gray-600 hover:text-primary transition"
                     >
-                      john@example.com
+                      rj7075yadav@gmail.com
                     </a>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ export default function ContactSection() {
                       href="tel:+1234567890"
                       className="text-gray-600 hover:text-primary transition"
                     >
-                      +1 (234) 567-890
+                      +91 9838692186
                     </a>
                   </div>
                 </div>
@@ -167,7 +167,9 @@ export default function ContactSection() {
 
                   <div>
                     <h4 className="font-medium">Location</h4>
-                    <p className="text-gray-600">San Francisco, CA</p>
+                    <p className="text-gray-600">
+                      Gurugram <Haryana></Haryana>(HR).
+                    </p>
                   </div>
                 </div>
               </div>
