@@ -2,6 +2,47 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
+    title: "Hotel Booking Advanced Featurd Website",
+    description:
+      "A full-stack hotel booking website with login & register system, role-based authentication for users, admins, and hotel owners, integrated payment gateway, and advanced features like hotel search, filters, and booking management. It also supports hotel registration for owners, admin controls, and a smooth end-to-end booking flow for users.",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Stripe",
+      "Express",
+      "JWT",
+      "Tailwind CSS",
+      "React Router",
+      "cloudinary",
+      "multer",
+    ],
+    image: "/HotelBooking.png",
+    demoUrl: "https://resort-client-b33z.vercel.app/",
+    codeUrl: "#",
+  },
+  {
+    title: "Physiowell Advanced Featurd Website",
+    description:
+      "A role-based appointment booking platform where patients can book appointments, doctors can register to offer their services, and admins can manage services and oversee the system, ensuring a seamless healthcare booking experience.",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Stripe",
+      "Express",
+      "JWT",
+      "Tailwind CSS",
+      "React Router",
+      "cloudinary",
+      "multer",
+    ],
+    image: "/AppointmentBooking.png",
+    demoUrl: "https://appointment-booking-jade.vercel.app/",
+    codeUrl: "#",
+  },
+
+  {
     title: "Resort-Booking Website",
     description:
       "Elegant resort-booking website designed for smooth reservations, stunning gallery displays, and a user-friendly experience that turns visitors into guests.",

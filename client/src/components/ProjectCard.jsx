@@ -30,14 +30,14 @@ export default function ProjectCard({ project }) {
           >
             Live Demo
           </a>
-          <a
+          {/* <a
             href={project.codeUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-dark font-medium hover:underline"
           >
             View Code
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
