@@ -167,9 +167,7 @@ export default function ContactSection() {
 
                   <div>
                     <h4 className="font-medium">Location</h4>
-                    <p className="text-gray-600">
-                      Gurugram <Haryana></Haryana>(HR).
-                    </p>
+                    <p className="text-gray-600">Gurugram Haryana(HR).</p>
                   </div>
                 </div>
               </div>
