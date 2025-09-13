@@ -79,21 +79,19 @@ const projects = [
     codeUrl: "#",
   },
   {
-    title: "Fitness Tracker",
+    title: "Virtual Office Website",
     description:
-      "Mobile app for tracking workouts, nutrition, and health metrics.",
-    technologies: ["React Native", "GraphQL", "Firebase"],
-    image: "/r4.jpg",
-    demoUrl: "#",
-    codeUrl: "#",
-  },
-  {
-    title: "Recipe Finder",
-    description:
-      "Search and save recipes with dietary filters and meal planning.",
-    technologies: ["Vue.js", "Express", "MongoDB"],
-    image: "/r4.jpg",
-    demoUrl: "https://yourhomefinder.in/interior-page/",
+      "A premium Virtual Office Solution Provider website with modern UI featuring booking system, WhatsApp & call buttons, and quick form submission for seamless customer interaction.",
+    technologies: [
+      "React",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "React Router",
+    ],
+    image: "/virtualoffice.png",
+    demoUrl: "https://workspaces.assetsense.in/",
     codeUrl: "#",
   },
 ];
