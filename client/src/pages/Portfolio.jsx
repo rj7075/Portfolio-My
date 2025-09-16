@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
-    title: "Hotel Booking Advanced Featurd Website",
+    title: "Hotel Booking Advanced Featured Website",
     description:
       "A full-stack hotel booking website with login & register system, role-based authentication for users, admins, and hotel owners, integrated payment gateway, and advanced features like hotel search, filters, and booking management. It also supports hotel registration for owners, admin controls, and a smooth end-to-end booking flow for users.",
     technologies: [
@@ -22,7 +22,7 @@ const projects = [
     codeUrl: "#",
   },
   {
-    title: "Physiowell Advanced Featurd Website",
+    title: "Physiowell Advanced Featured Website",
     description:
       "A role-based appointment booking platform where patients can book appointments, doctors can register to offer their services, and admins can manage services and oversee the system, ensuring a seamless healthcare booking experience.",
     technologies: [
