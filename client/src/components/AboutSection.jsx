@@ -36,7 +36,7 @@ export default function AboutSection() {
               Passionate Full Stack Developer
             </h3>
             <p className="text-gray-600 mb-6">
-              With over 5 years of experience in web development, I specialize
+              With over 1.5 years of experience in web development, I specialize
               in creating responsive, user-friendly websites and applications.
               My journey in tech started with a curiosity about how things work,
               which has grown into a passion for building digital solutions that

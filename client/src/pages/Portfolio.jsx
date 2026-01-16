@@ -2,6 +2,27 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
+    title: "Property Listing & Management Platform",
+    description:
+      "A full-stack property listing platform where users can list, browse, search, and purchase properties across multiple categories. The system includes role-based authentication for admins, sellers, and buyers, advanced search and filtering, admin approval workflows, cart and checkout functionality, and secure payment integration.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Stripe",
+      "Razorpay",
+      "React Router",
+      "Tailwind CSS",
+      "Cloudinary",
+      "Multer",
+    ],
+    image: "/assetsenseproperty.png",
+    demoUrl: "https://assetsense.in/",
+    codeUrl: "#",
+  },
+  {
     title: "Hotel Booking Advanced Featured Website",
     description:
       "A full-stack hotel booking website with login & register system, role-based authentication for users, admins, and hotel owners, integrated payment gateway, and advanced features like hotel search, filters, and booking management. It also supports hotel registration for owners, admin controls, and a smooth end-to-end booking flow for users.",
