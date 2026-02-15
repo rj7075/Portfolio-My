@@ -8,221 +8,202 @@ export default function ContactSection() {
     message: "",
   });
 
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+
+  const GOOGLE_FORM_URL =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdt9FLqDPkjd-DWbOAODaVC2abmVTnUI_ujinSjRZABpKjMbA/formResponse";
+
   const handleChange = (e) => {
     const { name, value } = e.target;
+
     setFormData((prev) => ({
       ...prev,
       [name]: value,
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send to API)
-    console.log("Form submitted:", formData);
-    alert("Thank you for your message! I will get back to you soon.");
-    setFormData({ name: "", email: "", message: "" });
+
+    setLoading(true);
+
+    const formBody = new FormData();
+
+    formBody.append("entry.783140003", formData.name);
+    formBody.append("entry.1563551126", formData.email);
+    formBody.append("entry.407814668", formData.mobile);
+    formBody.append("entry.1679191168", formData.message);
+
+    try {
+      await fetch(GOOGLE_FORM_URL, {
+        method: "POST",
+        mode: "no-cors",
+        body: formBody,
+      });
+
+      setSuccess(true);
+
+      setFormData({
+        name: "",
+        email: "",
+        mobile: "",
+        message: "",
+      });
+
+      setTimeout(() => setSuccess(false), 4000);
+
+    } catch (error) {
+      alert("Something went wrong. Please try again.");
+    }
+
+    setLoading(false);
   };
 
   return (
     <section className="py-3 bg-gray-50">
       <div className="container mx-auto px-4">
+
         <h2 className="section-title">Get In Touch</h2>
+
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-          Have a project in mind or want to discuss potential opportunities?
-          Feel free to reach out!
+          Want a professional gym website that brings more members?
+          Contact now for free demo.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12">
+
+          {/* FORM */}
           <div className="lg:w-1/2">
-            <form onSubmit={handleSubmit} className="space-y-6">
+
+            <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-lg shadow-md">
+
+              {/* Success Message */}
+              {success && (
+                <div className="bg-green-100 text-green-700 p-3 rounded-lg">
+                  ✅ Message sent successfully! I will contact you soon.
+                </div>
+              )}
+
+              {/* Name */}
               <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 mb-1"
-                >
+                <label className="block text-sm font-medium mb-1">
                   Name
                 </label>
+
                 <input
                   type="text"
-                  id="name"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
+                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 outline-none"
                 />
               </div>
 
+              {/* Email */}
               <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 mb-1"
-                >
+                <label className="block text-sm font-medium mb-1">
                   Email
                 </label>
+
                 <input
                   type="email"
-                  id="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
+                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 outline-none"
                 />
               </div>
 
+              {/* Mobile */}
               <div>
-                <label
-                  htmlFor="mobile"
-                  className="block text-sm font-medium text-gray-700 mb-1"
-                >
+                <label className="block text-sm font-medium mb-1">
                   Mobile
                 </label>
+
                 <input
-                  type="text"
-                  id="mobile"
+                  type="tel"
                   name="mobile"
                   value={formData.mobile}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
+                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 outline-none"
                 />
               </div>
 
+              {/* Message */}
               <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 mb-1"
-                >
+                <label className="block text-sm font-medium mb-1">
                   Message
                 </label>
+
                 <textarea
-                  id="message"
                   name="message"
-                  rows="5"
+                  rows="4"
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
-                ></textarea>
+                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 outline-none"
+                />
               </div>
 
+              {/* Button */}
               <button
                 type="submit"
-                className="bg-primary text-black border bg-amber-50 border-amber-300 px-6 py-3 rounded-lg font-medium hover:bg-secondary transition"
+                disabled={loading}
+                className="w-full bg-black text-white py-3 rounded-lg font-medium hover:bg-gray-800 transition"
               >
-                Send Message
+                {loading ? "Sending..." : "Send Message"}
               </button>
+
             </form>
+
           </div>
 
+          {/* CONTACT INFO */}
           <div className="lg:w-1/2">
+
             <div className="bg-white p-8 rounded-lg shadow-md">
+
               <h3 className="text-xl font-semibold mb-4">
                 Contact Information
               </h3>
+
               <p className="text-gray-600 mb-6">
-                I'm always open to discussing new projects, creative ideas or
-                opportunities to be part of your vision.
+                Contact now to get your professional gym website and increase memberships.
               </p>
 
               <div className="space-y-4">
-                <div className="flex items-start">
-                  <img
-                    className="h-6 bg-white w-6 px-0.5 py-0.3"
-                    src="/email1.png"
-                    alt="email"
-                  />
-                  <div>
-                    <h4 className="font-medium">Email</h4>
-                    <a
-                      href="mailto:john@example.com"
-                      className="text-gray-600 hover:text-primary transition"
-                    >
-                      rj7075yadav@gmail.com
-                    </a>
-                  </div>
+
+                <div>
+                  <h4 className="font-medium">Email</h4>
+                  <a href="mailto:rj7075yadav@gmail.com">
+                    rj7075yadav@gmail.com
+                  </a>
                 </div>
 
-                <div className="flex items-start">
-                  <img
-                    className="h-6 w-6 px-0.5"
-                    src="/phone.png"
-                    alt="phone"
-                  />
-                  <div>
-                    <h4 className="font-medium">Phone</h4>
-                    <a
-                      href="tel:+1234567890"
-                      className="text-gray-600 hover:text-primary transition"
-                    >
-                      +91 9838692186
-                    </a>
-                  </div>
+                <div>
+                  <h4 className="font-medium">Phone</h4>
+                  <a href="tel:+917290968759">
+                    +91 9838692186
+                  </a>
                 </div>
 
-                <div className="flex items-start">
-                  <img className="h-6 w-6" src="/location.png" alt="location" />
-
-                  <div>
-                    <h4 className="font-medium">Location</h4>
-                    <p className="text-gray-600">Gurugram Haryana(HR).</p>
-                  </div>
+                <div>
+                  <h4 className="font-medium">Location</h4>
+                  <p>Gurugram, Haryana</p>
                 </div>
+
               </div>
 
-              <div className="mt-8">
-                <h4 className="font-medium mb-4">Follow Me</h4>
-                <div className="flex space-x-4">
-                  <a
-                    href="#"
-                    className="text-gray-600 hover:text-primary transition"
-                    aria-label="Twitter"
-                  >
-                    <img className="h-6 w-6" src="/twitter.png" alt="twitter" />
-                  </a>
-                  <a
-                    href="https://github.com/rj7075?tab=repositories"
-                    className="text-gray-600 hover:text-primary transition"
-                    aria-label="GitHub"
-                  >
-                    <img className="h-6 w-6" src="/github.png" alt="github" />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/ranjeet-yadav-174865211/"
-                    className="text-gray-600 hover:text-primary transition"
-                    aria-label="LinkedIn"
-                  >
-                    <img className="h-6 w-6" src="/linkdin.png" alt="linkdin" />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-600 hover:text-primary transition"
-                    aria-label="LinkedIn"
-                  >
-                    <img
-                      className="h-6 w-6"
-                      src="/instagram.png"
-                      alt="instagram"
-                    />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-600 hover:text-primary transition"
-                    aria-label="LinkedIn"
-                  >
-                    <img
-                      className="h-6 w-6"
-                      src="/facebook.png"
-                      alt="facebook"
-                    />
-                  </a>
-                </div>
-              </div>
             </div>
+
           </div>
+
         </div>
+
       </div>
     </section>
   );
