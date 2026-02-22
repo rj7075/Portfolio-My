@@ -67,8 +67,7 @@ export default function ContactSection() {
         <h2 className="section-title">Get In Touch</h2>
 
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-          Want a professional gym website that brings more members?
-          Contact now for free demo.
+          Want a professional website that helps grow your business? Contact us now for a free demo.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12">
@@ -172,7 +171,7 @@ export default function ContactSection() {
               </h3>
 
               <p className="text-gray-600 mb-6">
-                Contact now to get your professional gym website and increase memberships.
+                Contact now to get your professional website and increase your strong online presence.
               </p>
 
               <div className="space-y-4">
