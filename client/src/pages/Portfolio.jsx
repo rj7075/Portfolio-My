@@ -64,6 +64,17 @@ const projects = [
   },
 
   {
+  title: "Gym & Fitness Website",
+  description:
+    "High-converting gym and fitness website designed to attract new members, showcase services, and increase client engagement with modern UI and strong call-to-action sections.",
+  technologies: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
+  image: "/gymwebsite.png",
+  demoUrl: "https://core-conversion-engine.lovable.app/",
+  codeUrl: "#",
+},
+
+
+  {
     title: "Resort-Booking Website",
     description:
       "Elegant resort-booking website designed for smooth reservations, stunning gallery displays, and a user-friendly experience that turns visitors into guests.",
