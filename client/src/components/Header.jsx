@@ -13,7 +13,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white shadow-md fixed w-full z-10">
+    <header className="bg-gray-50 shadow-sm fixed w-full z-10">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <NavLink to="/" className="text-2xl font-bold text-primary">
         <span className="flex">

@@ -42,7 +42,7 @@ const EducationSection = () => {
         {EducationCard.map((item, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            className=" p-6 rounded-lg shadow-md hover:shadow-lg transition"
           >
             <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
             <p className="text-gray-600">{item.description}</p>

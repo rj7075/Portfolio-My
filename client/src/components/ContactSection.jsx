@@ -61,7 +61,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="py-3 bg-gray-50">
+    <section className="py-3">
       <div className="container mx-auto px-4">
 
         <h2 className="section-title">Get In Touch</h2>
@@ -75,7 +75,7 @@ export default function ContactSection() {
           {/* FORM */}
           <div className="lg:w-1/2">
 
-            <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-lg shadow-md">
+            <form onSubmit={handleSubmit} className="space-y-6 p-6 rounded-lg shadow-md">
 
               {/* Success Message */}
               {success && (
@@ -164,7 +164,7 @@ export default function ContactSection() {
           {/* CONTACT INFO */}
           <div className="lg:w-1/2">
 
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="p-8 rounded-lg shadow-md">
 
               <h3 className="text-xl font-semibold mb-4">
                 Contact Information
