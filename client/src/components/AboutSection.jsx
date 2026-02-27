@@ -39,7 +39,7 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-primary rounded-xl opacity-10"></div>
 
               <img
-                src="/rj1.jpeg"
+                src="/rj1.png"
                 alt="RJ Yadav Full Stack Developer"
                 className="relative w-full h-full object-cover rounded-xl shadow-lg"
               />

@@ -27,7 +27,7 @@ export default function Footer() {
               <h3 className="text-2xl font-bold">RANJEET YADAV</h3>
             </div>
 
-            <p className="mt-4 text-gray-600 text-sm leading-relaxed">
+            <p className="mt-4 text-gray-600 text-lg leading-relaxed">
               Full Stack Developer creating modern, scalable and user-friendly
               web applications.
             </p>
