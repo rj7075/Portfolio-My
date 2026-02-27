@@ -16,7 +16,8 @@ export default function Header() {
     <header className="bg-white shadow-md fixed w-full z-10">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <NavLink to="/" className="text-2xl font-bold text-primary">
-          <img className="w-16 h-10" src="/mylogo.png" alt="log" />
+        <span className="flex">
+          <img className="w-10 h-7 mt-1 md:mt-0 md:w-12 md:h-9 " src="/mylogo.png" alt="log" /><h1 className="text-2xl md:text-3xl">RANJEET YADAV</h1></span>
         </NavLink>
 
         {/* Desktop Navigation */}

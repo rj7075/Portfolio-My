@@ -54,7 +54,7 @@ const Hero = () => {
               <img
                 src="/Ranjeet-Yadav3.jpg"
                 alt="Developer"
-                className="relative w-94 h-100 rounded-md object-cover z-1"
+                className="relative w-100 h-100 rounded-md object-cover z-1"
               />
             </div>
           </div>
