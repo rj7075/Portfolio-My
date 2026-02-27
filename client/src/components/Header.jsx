@@ -74,7 +74,7 @@ export default function Header() {
       {/* Mobile Navigation */}
       {isMenuOpen && (
         <nav className="md:hidden bg-white py-4 px-4 shadow-lg">
-          <ul className="flex flex-col space-y-4">
+          <ul className="flex  justfy items-center flex-col space-y-4">
             {navItems.map((item) => (
               <li key={item.name}>
                 <NavLink

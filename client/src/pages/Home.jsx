@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <AboutSection />
+      <AboutSection className="mt-10" />
       <Contact />
     </>
   );

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="py-4 pb-16">
+    <section className="py-4 pb-16 mb-5">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
@@ -11,7 +11,7 @@ const Hero = () => {
               Hi, I'm <span className="text-primary">Ranjeet Yadav</span>
             </h1>
             <h2 className="text-xl md:text-3xl font-semibold mb-6">
-              Full Stack Developer
+              Full Stack Software Developer
             </h2>
             <p className="text-md mb-8 font-semibold text-gray-500">
               I am a passionate Full Stack Software Developer specializing in
@@ -35,13 +35,13 @@ const Hero = () => {
             <div className="flex space-x-4">
               <Link
                 to="/portfolio"
-                className="bg-primary text-black border border-primary px-6 py-3 rounded-lg font-medium hover:bg-secondary transition"
+                className="bg-primary text-black border border-primary px-5 py-2 rounded-lg font-medium hover:bg-secondary transition"
               >
                 View My Work
               </Link>
               <Link
                 to="/contact"
-                className="border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary hover:text-black transition"
+                className="border border-primary text-primary px-5 py-2 rounded-lg font-medium hover:bg-primary hover:text-black transition"
               >
                 Contact Me
               </Link>

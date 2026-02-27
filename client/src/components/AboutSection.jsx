@@ -15,12 +15,13 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="py-10 mt-15 sm:py-14 lg:py-20">
+    <section className="py-10 sm:py-14 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Title */}
         <h2 className="
           text-center
+          pt-10
           text-2xl sm:text-3xl md:text-4xl
           font-bold
           mb-8 sm:mb-12
