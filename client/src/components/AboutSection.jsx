@@ -15,7 +15,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="py-10 sm:py-14 lg:py-20">
+    <section className="">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Title */}

@@ -1,16 +1,35 @@
 import React from "react";
 
 const EducationCard = [
+
+  {
+    title: "Asset Sense Private Limited",
+    description:
+      "Full Stack Software Developer specializing in building scalable and user-friendly web applications. Asset Sense Private Limited 2025 - Present",
+  },
+  {
+    title: "Infoicon Technologies Private Limited",
+    description:
+      "Software Developer Training, Infoicon Technology Private Limited 2024 - 2025",
+  },
+  
   {
     title: "Education",
     description:
-      " B.Tech in Information Technology from Ajay Kumar Garg Engineering College Ghaziabad, 2020 - 2024",
+      "I have Completed my B.Tech in Information Technology from Ajay Kumar Garg Engineering College Ghaziabad, 2020 - 2024",
   },
   {
-    title: "Expierience",
-    description:
-      "Software Developer Training, Infoicon Technology Private Limited 2024 - 2025 , Full Stack Developer-AssetSense Private Limited 2025 - Present",
-  },
+  title: "Intermediate",
+  description:
+    "I have Completed my Intermediate from Urmila Educational Academy, Lakshmipuram, Basti, Uttar Pradesh",
+},
+  {
+  title: "High School",
+  description:
+    "I have Completed my High School from Urmila Educational Academy, Lakshmipuram, Basti, Uttar Pradesh",
+},
+
+  
 ];
 
 const EducationSection = () => {
