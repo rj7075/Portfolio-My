@@ -18,31 +18,22 @@ export default function AboutSection() {
     <section className="py-10 mt-15 sm:py-14 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Title - always first */}
+        {/* Title */}
         <h2 className="
-          order-1
+          text-center
           text-2xl sm:text-3xl md:text-4xl
           font-bold
-          mb-6 sm:mb-10
-          text-center md:text-left
+          mb-8 sm:mb-12
         ">
           About Me
         </h2>
 
         {/* Main layout */}
         <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-16">
-
-          {/* Image section */}
-          <div className="
-            order-2
-            w-full md:w-1/3
-            flex justify-center
-          ">
-            <div className="
-              relative
-              w-56 sm:w-64 md:w-72 lg:w-80
-              aspect-[3/4]
-            ">
+          
+          {/* Image */}
+          <div className="w-full md:w-1/3 flex justify-center">
+            <div className="relative w-84 sm:w-64 md:w-72 lg:w-80 aspect-[3/4]">
               
               <div className="absolute inset-0 bg-primary rounded-xl opacity-10"></div>
 
@@ -54,12 +45,8 @@ export default function AboutSection() {
             </div>
           </div>
 
-          {/* Content section */}
-          <div className="
-            order-3
-            w-full md:w-2/3
-            text-center md:text-left
-          ">
+          {/* Content */}
+          <div className="w-full md:w-2/3 text-center md:text-left">
 
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4">
               Passionate Full Stack Developer
@@ -77,7 +64,7 @@ export default function AboutSection() {
 
             {/* Skills */}
             <div className="mb-8">
-              <h4 className="text-lg sm:text-xl font-semibold mb-4">
+              <h4 className="text-lg sm:text-xl font-semibold mb-4 text-center md:text-left">
                 My Skills
               </h4>
 
@@ -101,22 +88,24 @@ export default function AboutSection() {
             </div>
 
             {/* Resume button */}
-            <a
-              href="/resume.pdf"
-              download="RJ_Yadav_Resume.pdf"
-              className="
-                inline-block
-                text-sm sm:text-base
-                px-5 py-2.5 sm:px-6 sm:py-3
-                border border-black
-                rounded-lg
-                font-medium
-                hover:bg-black hover:text-white
-                transition duration-300
-              "
-            >
-              Download Resume
-            </a>
+            <div className="text-center md:text-left">
+              <a
+                href="/resume.pdf"
+                download="RJ_Yadav_Resume.pdf"
+                className="
+                  inline-block
+                  text-sm sm:text-base
+                  px-5 py-2.5 sm:px-6 sm:py-3
+                  border border-black
+                  rounded-lg
+                  font-medium
+                  hover:bg-black hover:text-white
+                  transition duration-300
+                "
+              >
+                Download Resume
+              </a>
+            </div>
 
           </div>
 
