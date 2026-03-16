@@ -63,6 +63,24 @@ const projects = [
     codeUrl: "#",
   },
 
+
+  {
+    title: "Full Stack Blog Platform",
+    description: "A dynamic blog platform with admin dashboard where users can publish blogs, manage categories, and upload images.",
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Auth System",
+      "Tailwind CSS",
+      "JWT",
+      "Cloudinary"
+    ],
+    image: "/blog.png",
+    demoUrl: "https://my-blog-k3jr.vercel.app/",
+    codeUrl: "#"
+  },
+
   {
   title: "Gym & Fitness Website",
   description:
