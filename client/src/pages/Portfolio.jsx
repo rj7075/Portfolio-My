@@ -43,6 +43,24 @@ const projects = [
     codeUrl: "#",
   },
   {
+  title: "Weather & Air Quality Dashboard",
+  description: "A responsive weather application that provides real-time weather updates, hourly forecasts, historical data, and detailed air quality metrics using geolocation. Includes charts, AQI insights, and interactive UI.",
+  technologies: [
+    "React.js",
+    "Vite",
+    "Tailwind CSS",
+    "Open-Meteo API",
+    "Axios",
+    "React Router",
+    "Recharts / ApexCharts",
+    "React Hot Toast",
+    "Geolocation API"
+  ],
+  image: "/weather.png",
+  demoUrl: "https://weatherapp-amber-rho-61.vercel.app/",
+  codeUrl: "#"
+},
+  {
     title: "Physiowell Advanced Featured Website",
     description:
       "A role-based appointment booking platform where patients can book appointments, doctors can register to offer their services, and admins can manage services and oversee the system, ensuring a seamless healthcare booking experience.",
