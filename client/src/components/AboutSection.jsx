@@ -1,16 +1,23 @@
 export default function AboutSection() {
   const skills = [
+    "Data Structure and Algorithm",
+    "Problem Solving",
+    "C/C++",
+    "OPPS" ,
     "JavaScript",
     "React",
+    "Next JS",
     "Node.js",
     "TypeScript",
-    "Python",
-    "Django",
     "HTML/CSS",
     "Tailwind CSS",
     "Git",
-    "Docker",
+    "GitHub",
+    "Deployments",
+    "Nginx",
     "AWS",
+    "Mysql",
+    "MongoDB",
     "SQL",
   ];
 
