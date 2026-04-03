@@ -99,22 +99,23 @@ const Hero = () => {
           </div>
 
           {/* RIGHT IMAGE */}
-            <div className="w-full md:w-1/2 mt-[210] flex justify-center md:justify-end">
-              <div className="relative w-82 h-84 md:w-[420px] md:h-[420px] lg:w-[480px] lg:h-[480px]">
+            {/* RIGHT IMAGE */}
+          <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+          <div className="relative w-82 h-84 md:w-[420px] md:h-[420px] lg:w-[480px] lg:h-[480px]">
 
-                {/* background shape */}
-                <div className="absolute inset-0 bg-primary opacity-10 rounded-2xl"></div>
+            {/* background shape */}
+            <div className="absolute inset-0 bg-primary opacity-10 rounded-2xl"></div>
 
-                {/* border frame */}
-                <div className="absolute inset-4 border-2 border-primary rounded-2xl"></div>
+            {/* border frame */}
+            <div className="absolute inset-4 border-2 border-primary rounded-2xl"></div>
 
-                <img
-                  src="/Ranjeet-Yadav3.jpg"
-                  alt="Ranjeet Yadav"
-                  className="relative w-full h-full object-cover rounded-xl shadow-xl"
-                />
-              </div>
-            </div>
+            <img
+              src="/Ranjeet-Yadav3.jpg"
+              alt="Ranjeet Yadav"
+              className="relative w-full h-full object-cover rounded-xl shadow-xl"
+            />
+          </div>
+          </div>
 
         </div>
       </div>
