@@ -203,6 +203,34 @@ const projects = [
   },
 
   {
+  title: "Finance Dashboard (Multi-Feature UI System)",
+  description:
+    "Built a modern finance dashboard with role-based transaction management, advanced filtering, and a custom theming system using CSS variables for seamless dark/light mode experience.",
+  category: "Frontend",
+  features: [
+    "Role-based Access (Admin / Viewer)",
+    "CRUD Operations for Transactions",
+    "Advanced Search, Filter & Sorting",
+    "Client-side Pagination",
+    "Dark/Light Mode (Custom Theme System)",
+    "Responsive Dashboard UI",
+    "Real-time Toast Feedback"
+  ],
+  technologies: [
+    "React",
+    "Zustand",
+    "Tailwind CSS",
+    "CSS Variables",
+    "React Router",
+    "React Icons",
+    "React Hot Toast"
+  ],
+  image: "/finanance.png",
+  demoUrl: "https://finance-dashboard-kappa-orcin.vercel.app/",
+  codeUrl: "https://github.com/rj7075/financeDashboard",
+},
+
+  {
     title: "Weather & Air Quality Dashboard",
     description:
       "Developed an interactive dashboard for real-time weather, forecasts, and air quality insights with charts and geolocation-based data.",
