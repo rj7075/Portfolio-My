@@ -203,6 +203,26 @@ const projects = [
   },
 
   {
+  title: "PG Listing & Accommodation Platform",
+  description:
+    "Developed a full-stack PG listing platform using Next.js with Server-Side Rendering (SSR) and SEO optimization, allowing users to explore PG accommodations with detailed pages, location-based filtering, and high-performance loading.",
+  category: "Web Application",
+  features: [
+    "SEO Optimized SSR Pages",
+    "Dynamic PG Listing & Detail Pages",
+    "Location-Based Search & Filtering",
+    "Fast Loading with Next.js Optimization",
+    "Responsive UI for Mobile & Desktop",
+    "Image Optimization & Lazy Loading",
+    "Scalable Component-Based Architecture"
+  ],
+  technologies: ["Next.js", "JavaScript", "React", "Tailwind CSS", "SSR", "SEO"],
+  image: "/radheradhe.png",
+  demoUrl: "https://www.radheradhepg.com/",
+  codeUrl: "#",
+},
+
+  {
   title: "Finance Dashboard (Multi-Feature UI System)",
   description:
     "Built a modern finance dashboard with role-based transaction management, advanced filtering, and a custom theming system using CSS variables for seamless dark/light mode experience.",
