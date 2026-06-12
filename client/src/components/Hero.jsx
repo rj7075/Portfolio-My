@@ -45,7 +45,7 @@ const Hero = () => {
               <div>
                 <h3 className="font-semibold text-lg">Frontend</h3>
                 <p className="text-gray-600 text-sm">
-                  React.js, Next.js, JavaScript (ES6+), Typescript(Currently in Learning Phase) ,Tailwind CSS, HTML5, CSS3
+                  React.js, Next.js, JavaScript (ES6+), Typescript ,System Design,Tailwind CSS, HTML5, CSS3
                 </p>
               </div>
 
@@ -59,21 +59,21 @@ const Hero = () => {
               <div>
                 <h3 className="font-semibold text-lg">Database</h3>
                 <p className="text-gray-600 text-sm">
-                  MongoDB, MySQL
+                  MongoDB, MySQL , SQL
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-lg">Core</h3>
                 <p className="text-gray-600 text-sm">
-                  Data Structures & Algorithms, OOP, DBMS
+                  C/C++ , Data Structures & Algorithms, System Design, DBMS , OPPs, OS
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-lg">Tools</h3>
                 <p className="text-gray-600 text-sm">
-                  Git, GitHub, Vercel, Postman, Hostinger, VPS Nginnx
+                  Git, GitHub, Vercel, Postman, Hostinger,Basic of AWS, VPS Nginx
                 </p>
               </div>
 

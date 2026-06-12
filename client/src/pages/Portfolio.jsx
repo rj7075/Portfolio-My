@@ -1,173 +1,11 @@
 import ProjectCard from "../components/ProjectCard";
 
-// const projects = [
-//   {
-//     title: "Property Listing & Management Platform",
-//     description:
-//       "A full-stack property listing platform where users can list, browse, search, and purchase properties across multiple categories. The system includes role-based authentication for admins, sellers, and buyers, advanced search and filtering, admin approval workflows, cart and checkout functionality, and secure payment integration.",
-//     technologies: [
-//       "React",
-//       "Node.js",
-//       "Express",
-//       "MongoDB",
-//       "JWT",
-//       "Stripe",
-//       "Razorpay",
-//       "React Router",
-//       "Tailwind CSS",
-//       "Cloudinary",
-//       "Multer",
-//     ],
-//     image: "/assetsenseproperty.png",
-//     demoUrl: "https://assetsense.in/",
-//     codeUrl: "#",
-//   },
-//   {
-//     title: "Hotel Booking Advanced Featured Website",
-//     description:
-//       "A full-stack hotel booking website with login & register system, role-based authentication for users, admins, and hotel owners, integrated payment gateway, and advanced features like hotel search, filters, and booking management. It also supports hotel registration for owners, admin controls, and a smooth end-to-end booking flow for users.",
-//     technologies: [
-//       "React",
-//       "Node.js",
-//       "MongoDB",
-//       "Stripe",
-//       "Express",
-//       "JWT",
-//       "Tailwind CSS",
-//       "React Router",
-//       "cloudinary",
-//       "multer",
-//     ],
-//     image: "/HotelBooking.png",
-//     demoUrl: "https://resort-client-b33z.vercel.app/",
-//     codeUrl: "#",
-//   },
-//   {
-//   title: "Weather & Air Quality Dashboard",
-//   description: "A responsive weather application that provides real-time weather updates, hourly forecasts, historical data, and detailed air quality metrics using geolocation. Includes charts, AQI insights, and interactive UI.",
-//   technologies: [
-//     "React.js",
-//     "Vite",
-//     "Tailwind CSS",
-//     "Open-Meteo API",
-//     "Axios",
-//     "React Router",
-//     "Recharts / ApexCharts",
-//     "React Hot Toast",
-//     "Geolocation API"
-//   ],
-//   image: "/weather.png",
-//   demoUrl: "https://weatherapp-amber-rho-61.vercel.app/",
-//   codeUrl: "#"
-// },
-//   {
-//     title: "Physiowell Advanced Featured Website",
-//     description:
-//       "A role-based appointment booking platform where patients can book appointments, doctors can register to offer their services, and admins can manage services and oversee the system, ensuring a seamless healthcare booking experience.",
-//     technologies: [
-//       "React",
-//       "Node.js",
-//       "MongoDB",
-//       "Stripe",
-//       "Express",
-//       "JWT",
-//       "Tailwind CSS",
-//       "React Router",
-//       "cloudinary",
-//       "multer",
-//     ],
-//     image: "/AppointmentBooking.png",
-//     demoUrl: "https://appointment-booking-jade.vercel.app/",
-//     codeUrl: "#",
-//   },
 
-
-//   {
-//     title: "Full Stack Blog Platform",
-//     description: "A dynamic blog platform with admin dashboard where users can publish blogs, manage categories, and upload images.",
-//     technologies: [
-//       "Next.js",
-//       "Node.js",
-//       "MongoDB",
-//       "Auth System",
-//       "Tailwind CSS",
-//       "JWT",
-//       "Cloudinary"
-//     ],
-//     image: "/blog.png",
-//     demoUrl: "https://my-blog-k3jr.vercel.app/",
-//     codeUrl: "#"
-//   },
-
-//   {
-//   title: "Gym & Fitness Website",
-//   description:
-//     "High-converting gym and fitness website designed to attract new members, showcase services, and increase client engagement with modern UI and strong call-to-action sections.",
-//   technologies: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
-//   image: "/gymwebsite.png",
-//   demoUrl: "https://core-conversion-engine.lovable.app/",
-//   codeUrl: "#",
-// },
-
-
-//   {
-//     title: "Resort-Booking Website",
-//     description:
-//       "Elegant resort-booking website designed for smooth reservations, stunning gallery displays, and a user-friendly experience that turns visitors into guests.",
-//     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-//     image: "/Resort.png",
-//     demoUrl: "https://final-resort.vercel.app/",
-//     codeUrl: "#",
-//   },
-//   {
-//     title: "Real Estate Website",
-//     description:
-//       "Modern real estate website built to showcase properties with stunning visuals,perfect for driving sales and inquiries",
-//     technologies: ["React", "Firebase", "Tailwind CSS"],
-//     image: "/assetsense.png",
-//     demoUrl: "https://assestsence.vercel.app/",
-//     codeUrl: "#",
-//   },
-//   {
-//     title: "Role Based Service Portal",
-//     description:
-//       "A secure and scalable portal where services are tailored to user roles, ensuring each user — admin, manager, or client",
-//     technologies: ["JavaScript", "API Integration", "Chart.js"],
-//     image: "/service.png",
-//     demoUrl: "https://service-portal-blue.vercel.app/",
-//     codeUrl: "#",
-//   },
-//   {
-//     title: "Interior Designer Website",
-//     description:
-//       "Showcasing creative interior designs with stunning visuals, portfolio galleries, and service details — crafted to inspire and attract clients.",
-//     technologies: ["Python", "Django", "PostgreSQL", "D3.js"],
-//     image: "/interiror.png",
-//     demoUrl: "https://yourhomefinder.in/interior-page/",
-//     codeUrl: "#",
-//   },
-//   {
-//     title: "Virtual Office Website",
-//     description:
-//       "A premium Virtual Office Solution Provider website with modern UI featuring booking system, WhatsApp & call buttons, and quick form submission for seamless customer interaction.",
-//     technologies: [
-//       "React",
-//       "Node",
-//       "Express",
-//       "MongoDB",
-//       "Tailwind CSS",
-//       "React Router",
-//     ],
-//     image: "/virtualoffice.png",
-//     demoUrl: "https://workspaces.assetsense.in/",
-//     codeUrl: "#",
-//   },
-// ];
 const projects = [
   {
     title: "Property Listing & Management Platform",
     description:
-      "Developed a scalable SaaS platform with multi-role dashboards (Admin, Seller, Buyer), advanced property search, secure payments, and KYC-based user verification.",
+  "Developed a full-stack multi-vendor real estate SaaS platform where vendors can register, complete KYC verification, publish property listings, generate leads, and manage their business operations. Implemented end-to-end authentication, vendor and user management, CRM, lead tracking, payment processing, advanced search & filters, chatbot integration, order management, CMS, and comprehensive admin dashboards with scalable architecture using Next.js, Node.js, MongoDB, and JWT authentication.",
     category: "SaaS",
     features: [
       "Multi-role Dashboard",
@@ -182,11 +20,93 @@ const projects = [
     demoUrl: "https://assetsense.in/",
     codeUrl: "#",
   },
+  {
+  title: "Blood Bank Management System",
+  description:
+    "Built a secure healthcare management platform that streamlines blood inventory management and blood request processing between hospitals and receivers. Integrated role-based access control, JWT authentication, blood compatibility validation, and scalable REST APIs using Next.js, Node.js, Express.js, and MongoDB.",
+  category: "Healthcare Management Platform",
+  features: [
+    "Hospital & Receiver Portals",
+    "Blood Inventory Management",
+    "Blood Request Workflow",
+    "Blood Group Compatibility Engine",
+  ],
+  technologies: [
+    "Next.js",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "bcrypt",
+    "Zod",
+    "Tailwind CSS"
+  ],
+  image: "/blood.png",
+  demoUrl: "https://bloodbank-puce-one.vercel.app/",
+  codeUrl: "#",
+},
+
+{
+  title: "My Work Estate - Real Estate Management Platform",
+  description:
+    "Developed a comprehensive real estate platform that enables users to explore and manage multiple property categories, including residential, commercial, rental, and investment properties. Built a complete ecosystem with property listings, CMS-driven blogs, admin dashboard, payment gateway integration, order management, mini CRM, and secure authentication using JWT and HTTP-only cookies.",
+  category: "Real Estate Web Application",
+  features: [
+    "Multi-Category Property Listings",
+    "Property Search & Advanced Filtering",
+    "Property Detail Pages",
+  
+  ],
+  technologies: [
+    "Next.js",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "HTTP Only Cookies",
+    "Tailwind CSS",
+    "REST API",
+    "Cloudinary",
+    "Payment Gateway API"
+  ],
+  image: "/mywork.png",
+  demoUrl: "https://myworkestate.com",
+  codeUrl: "#",
+},
+
+{
+  title: "Kisan Khad Bhandar & Building Material",
+  description:
+    "Developed a business website for a building material and agricultural supplier, enabling customers to explore products, request quotations, and inquire about transport services, fertilizers, seeds, cement, sand, bricks, and construction materials online." ,
+  category: "Business Website",
+  features: [
+    "Product Showcase",
+    "Building Material Listings",
+    "Agriculture Product Listings",
+    "Transport Service Information",
+    "Inquiry & Quote Forms",
+    "WhatsApp Integration",
+    "SEO Optimized Pages",
+    "Responsive Design"
+  ],
+  technologies: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "JavaScript",
+    "SEO"
+  ],
+  image: "/kisan.png",
+  demoUrl: "https://www.kisankhadbhandarbuildingmaterial.com/",
+  codeUrl: "#",
+},
 
   {
     title: "Hotel Booking Platform",
     description:
-      "Built a full-stack booking system with role-based dashboards (Admin, Hotel Owner, User), real-time booking flow, and integrated payment system.",
+  "Developed a full-stack Hotel Management SaaS platform that enables hotel owners to register, manage properties, list rooms, handle bookings, and track reservations through dedicated dashboards. Built a complete booking ecosystem featuring secure authentication, hotel and room management, availability tracking, booking workflows, payment integration, user management, role-based access control, advanced search and filtering, customer inquiry management, and admin controls using React.js, Node.js, Express.js, MongoDB, and JWT authentication.",
     category: "SaaS",
     features: [
       "Role-Based Access",
@@ -202,6 +122,32 @@ const projects = [
     codeUrl: "#",
   },
 
+  {
+  title: "The Work Lounge",
+  description:
+    "Developed a coworking and virtual office platform that allows users to explore and inquire about private cabins, meeting rooms, conference rooms, and virtual office services through a modern and responsive web experience.",
+  category: "Workspace Management Platform",
+  features: [
+    "Virtual Office Services",
+    "Private Cabin Listings",
+    "Meeting Room Booking",
+    "Conference Room Management",
+    "Lead & Inquiry System",
+    "Admin Dashboard",
+    "CMS Management",
+    "SEO Optimized Pages"
+  ],
+  technologies: [
+    "Next.js",
+    "Node.js",
+    "MongoDB",
+    "JWT",
+    "Tailwind CSS"
+  ],
+  image: "/thework.png",
+  demoUrl: "https://theworklounge.in/",
+  codeUrl: "#",
+},
   {
   title: "PG Listing & Accommodation Platform",
   description:

@@ -31,7 +31,7 @@ bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-md backdrop-blu
         </p>
 
         {/* FEATURE TAGS (NEW 🔥) */}
-        {project.features && (
+        {/* {project.features && (
           <div className="flex flex-wrap gap-2 mb-4">
             {project.features.map((feature, index) => (
               <span
@@ -42,10 +42,10 @@ bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-md backdrop-blu
               </span>
             ))}
           </div>
-        )}
+        )} */}
 
         {/* TECH STACK */}
-        <div className="flex flex-wrap gap-2 mb-4">
+        {/* <div className="flex flex-wrap gap-2 mb-4">
           {project.technologies.map((tech, index) => (
             <span
               key={index}
@@ -54,7 +54,7 @@ bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-md backdrop-blu
               {tech}
             </span>
           ))}
-        </div>
+        </div> */}
 
         {/* CTA BUTTONS */}
         <div className="flex gap-4">
