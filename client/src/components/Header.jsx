@@ -45,11 +45,10 @@ export default function Header() {
       />
 
       <header
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${scrolled
             ? "glass-panel shadow-sm py-3 border-b border-slate-200/80 dark:border-slate-800/80"
             : "bg-white/80 dark:bg-slate-950/80 backdrop-blur-md py-4 border-b border-transparent"
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           {/* Logo & Brand */}
@@ -87,10 +86,9 @@ export default function Header() {
                 key={item.name}
                 to={item.path}
                 className={({ isActive }) =>
-                  `px-3.5 py-2 rounded-lg text-xs font-semibold transition-all duration-150 ${
-                    isActive
-                      ? "text-blue-600 dark:text-blue-400 bg-blue-50/70 dark:bg-blue-950/40"
-                      : "text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100/60 dark:hover:bg-slate-800/50"
+                  `px-3.5 py-2 rounded-lg text-xs font-semibold transition-all duration-150 ${isActive
+                    ? "text-blue-600 dark:text-blue-400 bg-blue-50/70 dark:bg-blue-950/40"
+                    : "text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100/60 dark:hover:bg-slate-800/50"
                   }`
                 }
               >
@@ -116,7 +114,7 @@ export default function Header() {
 
             {/* Quick Resume Link (Desktop) */}
             <a
-              href="/resume.pdf"
+              href="/ranjeet.pdf"
               download="Ranjeet_Yadav_Resume.pdf"
               className="hidden lg:flex items-center gap-2 px-3.5 py-2 text-xs font-semibold rounded-lg border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-600 transition"
               title="Download Resume"
@@ -155,10 +153,9 @@ export default function Header() {
                   to={item.path}
                   onClick={() => setIsMenuOpen(false)}
                   className={({ isActive }) =>
-                    `px-4 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-                      isActive
-                        ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 font-bold"
-                        : "text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
+                    `px-4 py-2.5 rounded-xl text-sm font-semibold transition-all ${isActive
+                      ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 font-bold"
+                      : "text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
                     }`
                   }
                 >
