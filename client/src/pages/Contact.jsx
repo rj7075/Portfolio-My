@@ -1,12 +1,10 @@
 import React from "react";
 import ContactSection from "../components/ContactSection";
 
-const Contact = () => {
+export default function Contact() {
   return (
-    <div>
+    <div className="py-6">
       <ContactSection />
     </div>
   );
-};
-
-export default Contact;
+}

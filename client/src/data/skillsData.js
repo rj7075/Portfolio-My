@@ -1,0 +1,155 @@
+export const skillCategories = [
+  {
+    title: "Frontend Engineering",
+    icon: "FaReact",
+    description: "Modern, responsive, accessible web interfaces built with component-driven architecture.",
+    skills: [
+      { name: "React.js", level: "Expert", icon: "SiReact" },
+      { name: "Next.js (App & SSR)", level: "Advanced", icon: "SiNextdotjs" },
+      { name: "TypeScript", level: "Advanced", icon: "SiTypescript" },
+      { name: "JavaScript (ES6+)", level: "Expert", icon: "SiJavascript" },
+      { name: "Tailwind CSS", level: "Expert", icon: "SiTailwindcss" },
+      { name: "Zustand & Redux", level: "Advanced", icon: "SiRedux" },
+      { name: "HTML5 & CSS3", level: "Expert", icon: "SiHtml5" },
+      { name: "Responsive UI/UX", level: "Expert", icon: "FaMobileAlt" },
+    ],
+  },
+  {
+    title: "Backend & Systems",
+    icon: "FaServer",
+    description: "Scalable REST APIs, role-based auth, secure middleware, and business logic execution.",
+    skills: [
+      { name: "Node.js", level: "Expert", icon: "SiNodedotjs" },
+      { name: "Express.js", level: "Expert", icon: "SiExpress" },
+      { name: "RESTful API Design", level: "Expert", icon: "FaNetworkWired" },
+      { name: "JWT & Cookie Auth", level: "Advanced", icon: "SiJsonwebtokens" },
+      { name: "Role-Based Access (RBAC)", level: "Advanced", icon: "FaUserShield" },
+      { name: "API Security & Rate Limit", level: "Advanced", icon: "FaShieldAlt" },
+    ],
+  },
+  {
+    title: "Databases & Architecture",
+    icon: "FaDatabase",
+    description: "Robust data modeling, high-efficiency indexing, schema validation, caching, and storage solutions.",
+    skills: [
+      { name: "MongoDB & Mongoose", level: "Advanced", icon: "SiMongodb" },
+      { name: "Redis In-Memory Cache", level: "Advanced", icon: "SiRedis" },
+      { name: "MySQL & Relational SQL", level: "Advanced", icon: "SiMysql" },
+      { name: "Schema & DB Modeling", level: "Advanced", icon: "FaProjectDiagram" },
+      { name: "Cloudinary CDN", level: "Intermediate", icon: "SiCloudinary" },
+    ],
+  },
+  {
+    title: "Integrations & SaaS Features",
+    icon: "FaPuzzlePiece",
+    description: "Multi-tenant platforms, automated KYC verifications, payment gateways, and notifications.",
+    skills: [
+      { name: "Cashfree KYC Verification", level: "Production", icon: "FaCheckCircle" },
+      { name: "Payment Gateways (Stripe & Razorpay)", level: "Production", icon: "SiStripe" },
+      { name: "Multi-Role Dashboards", level: "Production", icon: "FaTachometerAlt" },
+      { name: "Lead & CRM Pipelines", level: "Production", icon: "FaChartLine" },
+      { name: "Email & WhatsApp Services", level: "Production", icon: "FaWhatsapp" },
+    ],
+  },
+  {
+    title: "AI & Workflow Automation",
+    icon: "FaRobot",
+    description: "Conversational bots, document generation pipelines, and automated webhook workflows.",
+    skills: [
+      { name: "Custom AI Chatbots", level: "Advanced", icon: "FaRobot" },
+      { name: "Document Generation Automation", level: "Advanced", icon: "FaFileAlt" },
+      { name: "Webhook & API Automation", level: "Advanced", icon: "FaBolt" },
+      { name: "Prompt Architecture", level: "Intermediate", icon: "FaBrain" },
+    ],
+  },
+  {
+    title: "DevOps, Cloud & Version Control",
+    icon: "FaCogs",
+    description: "Automated continuous delivery, Docker containerization, cloud infrastructure, and version control.",
+    skills: [
+      { name: "Docker Containerization", level: "Advanced", icon: "SiDocker" },
+      { name: "CI/CD & GitHub Actions", level: "Advanced", icon: "SiGithubactions" },
+      { name: "AWS (EC2, S3, IAM)", level: "Intermediate", icon: "SiAmazonwebservices" },
+      { name: "Git & Version Control", level: "Expert", icon: "SiGit" },
+      { name: "Nginx Reverse Proxy", level: "Advanced", icon: "SiNginx" },
+      { name: "Linux VPS Deployment", level: "Advanced", icon: "SiLinux" },
+      { name: "Postman API Testing", level: "Expert", icon: "SiPostman" },
+      { name: "Vercel & Hostinger", level: "Advanced", icon: "SiVercel" },
+    ],
+  },
+];
+
+export const experienceTimeline = [
+  {
+    type: "work",
+    role: "Full Stack Software Developer",
+    organization: "Asset Sense Private Limited",
+    location: "Gurugram, India",
+    period: "2025 - Present",
+    current: true,
+    description:
+      "Spearheading development of multi-vendor SaaS platforms, commercial coworking marketplaces, and automated AI tools. Architecting multi-role portals (Super Admin, Admin, Vendor, User) with Cashfree KYC identity verification and payment gateways.",
+    highlights: [
+      "Engineered multi-role enterprise dashboards with isolated access permissions and data views.",
+      "Integrated automated Cashfree KYC verification and Stripe/Razorpay payment gateways.",
+      "Developed custom AI chatbots and document generation pipelines to streamline user queries.",
+      "Configured Linux VPS hosting with Nginx reverse proxy and SSL for high-availability production.",
+    ],
+    technologies: ["Next.js", "React", "Node.js", "Express", "MongoDB", "Cashfree KYC", "Nginx", "VPS"],
+  },
+  {
+    type: "work",
+    role: "Software Developer Training",
+    organization: "Infoicon Technologies Private Limited",
+    location: "Noida, India",
+    period: "2024 - 2025",
+    current: false,
+    description:
+      "Intensive full stack software engineering training focused on enterprise web development, REST API design, component architecture, and modern JavaScript standards.",
+    highlights: [
+      "Built production-ready CRUD web applications with secure JWT authentication and role protection.",
+      "Mastered state management, performance optimization, and responsive design systems.",
+      "Collaborated in team agile sprints, version control best practices, and code reviews.",
+    ],
+    technologies: ["React", "JavaScript (ES6+)", "Node.js", "Express", "MongoDB", "Git"],
+  },
+  {
+    type: "education",
+    role: "Bachelor of Technology (B.Tech) - Information Technology",
+    organization: "Ajay Kumar Garg Engineering College (AKGEC)",
+    location: "Ghaziabad, Uttar Pradesh",
+    period: "2020 - 2024",
+    current: false,
+    description:
+      "Graduated in Information Technology with a strong foundation in Data Structures, Algorithms, Computer Networks, Database Management Systems, Operating Systems, and Object-Oriented Programming.",
+    highlights: [
+      "Deep understanding of Core CS: DSA, OOPs, DBMS, Operating Systems, Computer Architecture.",
+      "Active problem solving and full-stack project development throughout graduation.",
+    ],
+    technologies: ["Data Structures & Algorithms", "C/C++", "DBMS", "Operating Systems", "Computer Networks"],
+  },
+  {
+    type: "education",
+    role: "Senior Secondary (Intermediate)",
+    organization: "Urmila Educational Academy",
+    location: "Lakshmipuram, Basti, Uttar Pradesh",
+    period: "Completed",
+    current: false,
+    description:
+      "Focused on Science and Mathematics with excellence in academic problem solving and computer applications.",
+    highlights: ["Strong foundation in analytical mathematics and scientific logic."],
+    technologies: ["Physics", "Chemistry", "Mathematics", "Computer Applications"],
+  },
+  {
+    type: "education",
+    role: "High School (Matriculation)",
+    organization: "Urmila Educational Academy",
+    location: "Lakshmipuram, Basti, Uttar Pradesh",
+    period: "Completed",
+    current: false,
+    description:
+      "Completed secondary education with top honors, establishing strong analytical and computational foundations.",
+    highlights: ["Academic excellence and early passion for computing."],
+    technologies: ["Science", "Mathematics", "English"],
+  },
+];

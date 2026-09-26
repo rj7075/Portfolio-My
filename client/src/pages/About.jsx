@@ -1,14 +1,14 @@
 import React from "react";
 import AboutSection from "../components/AboutSection";
-import EducationSection from "../components/EducationSection";
+import ExperienceSection from "../components/ExperienceSection";
+import SkillsSection from "../components/SkillsSection";
 
-const About = () => {
+export default function About() {
   return (
-    <>
-      <AboutSection />;
-      <EducationSection />
-    </>
+    <div className="py-6">
+      <AboutSection />
+      <ExperienceSection />
+      <SkillsSection />
+    </div>
   );
-};
-
-export default About;
+}

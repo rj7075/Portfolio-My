@@ -1,16 +1,18 @@
-import AboutSection from "../components/AboutSection";
+import React from "react";
 import Hero from "../components/Hero";
-import Skills from "../components/SkillsExpirience";
-
-import Contact from "./Contact";
+import FeaturedProjects from "../components/FeaturedProjects";
+import SkillsSection from "../components/SkillsSection";
+import AboutSection from "../components/AboutSection";
+import ContactSection from "../components/ContactSection";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Skills/>
+      <FeaturedProjects />
+      <SkillsSection />
       <AboutSection />
-      <Contact />
+      <ContactSection />
     </>
   );
 }

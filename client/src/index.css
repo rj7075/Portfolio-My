@@ -1,38 +1,115 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+
+  --color-primary: #2563eb;
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.3);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #eaedf0; /* light background */
-  color: #060707; /* dark text */
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  background-color: #f8fafc;
+  color: #0f172a;
 }
 
-.section-title {
-  font-size: 1.875rem; /* Tailwind text-3xl */
-  font-weight: 700; /* Tailwind font-bold */
-  margin-bottom: 2rem; /* Tailwind mb-8 */
-  text-align: center; /* Tailwind text-center */
-  position: relative; /* Tailwind relative */
+.dark body {
+  background-color: #090d16;
+  color: #e2e8f0;
 }
 
-.section-title::after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 4rem; /* Tailwind w-16 */
-  height: 0.25rem; /* Tailwind h-1 */
-  background-color: #0d6efd; /* Tailwind bg-primary */
-  border-radius: 9999px; /* Tailwind rounded-full */
+/* Typography Headings */
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-heading);
 }
 
-/* body {
-  @apply bg-light text-dark;
+/* Calm, low-opacity ambient light */
+.bg-radial-gradient {
+  background-image: radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.05), transparent 60%);
 }
 
-.section-title {
-  @apply text-3xl font-bold mb-8 text-center relative;
+.dark .bg-radial-gradient {
+  background-image: radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.08), transparent 60%);
 }
 
-.section-title::after {
-  @apply content-[''] absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-16 h-1 bg-primary rounded-full;
-} */
+/* Glassmorphism helpers - calm, refined, premium */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.dark .glass-panel {
+  background: rgba(15, 20, 31, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .glass-card {
+  background: rgba(13, 18, 28, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(37, 99, 235, 0.35);
+  box-shadow: 0 12px 24px -6px rgba(15, 23, 42, 0.06);
+}
+
+.dark .glass-card:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.4);
+}
